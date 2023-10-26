@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking 101</title>
+    <style>
+        body {position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;}
+        h1 {font-size: 3em;
+            text-align: center;
+            margin-bottom: 20px;}
+        p {font-size: 1.2em;
+            text-align: center;
+            max-width: 600px}
+        #create,
+        #view {text-align: center;margin: 40px 0;}
+        .navigation {
+            position: absolute;
+            top: 10px;
+            right: 10px;}
+        .navigation button {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 1.2em;
+            border-radius: 20px;
+            background-color: #ffcc00;
+            border: none;
+            color: #fff;
+            cursor: pointer;}
+        .navigation button:hover {
+            background-color: #ffa500;}
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <button onclick="location.href='CreateRankings.html'">Create Rankings</button>
+        <button onclick="location.href='ViewRankings.html'">View Rankings</button>
+    </div>
+    <h1>Ranking 101</h1>
+    <p>Welcome to Ranking 101, the website to rank anything you would like</p>
+    <img src="https://www.shutterstock.com/image-vector/black-scale-lines-1-10-260nw-2014346720.jpg" alt="Scale 1-10" style="max-width: 100%; height: auto; margin-top: 20px;">
+    <div id="create">
+        <h2></h2>
+    <div id="view">
+        <h2></h2>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Rankings</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            position: relative;
+        }
+        .container {
+            text-align: left;
+            width: 50%;
+        }
+        .ranking {
+            margin-bottom: 20px;
+        }
+        .navigation {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        .navigation a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 1.2em;
+            border-radius: 20px;
+            background-color: #ffcc00;
+            border: none;
+            color: #fff;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .navigation a:hover {
+            background-color: #ffa500;
+        }
+        h1 {
+            font-size: 3em;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <a href="FrontPage.html">Go Back</a>
+    </div>
+    <div class="container">
+        <h1 style="text-align: center;">View Rankings</h1>
+        <div class="ranking">
+            <h2>Ranking 1</h2>
+            <p>Favorite games</p>
+        </div>
+        <div class="ranking">
+            <h2>Ranking 2</h2>
+            <p>All shows you have watched</p>
+        </div>
+        <div class="ranking">
+            <h2>Ranking 3</h2>
+            <p>All school teachers</p>
+        </div>
+    </div>
+</body>
+</html>
